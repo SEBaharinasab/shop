@@ -56,7 +56,7 @@ function Header() {
                   onMouseOver={() => setOverlay(true)}
                   onMouseLeave={() => setOverlay(false)}
                 >
-                  <Link to={"products"} className="td-nav__link">دسته&zwnj;بندی کالاها</Link>
+                  <Link to={"/products"} className="td-nav__link">دسته&zwnj;بندی کالاها</Link>
                   <div className="td-nav__marker" />
                   <div className="td-nav__result">
                     some results are here for دسته&zwnj;بندی کالاها.
@@ -67,7 +67,7 @@ function Header() {
                   onMouseOver={() => setOverlay(true)}
                   onMouseOut={() => setOverlay(false)}
                 >
-                  <Link to={"products"} className="td-nav__link">تخفیف ها</Link>
+                  <Link to={"/products"} className="td-nav__link">تخفیف ها</Link>
                   <div className="td-nav__marker" />
                   <div className="td-nav__result">
                     some results are here for تخفیف ها
@@ -79,7 +79,7 @@ function Header() {
           <div className="t-header__left">
             <div className="t-header__action">
               <a
-                href={"https://github.com/SEBahari"}
+                href={"https://github.com/SEBaharinasab/shop"}
                 target={"_blank"}
                 rel={"noreferrer"}
                 className={"t-header__action-a t-header__github-link"}
@@ -139,7 +139,7 @@ function Header() {
           </div>
         </div>
         {overlay && <div className={"t-header__overlay shown"} />}
-        <a href={"https://github.com/SEBahari/Ehsan_baharinasab_final_project"}
+        <a href={"https://github.com/SEBaharinasab/shop"}
           className="github-link" target={"_blank"} rel={"noreferrer"}><i
             className={"bi bi-github"} /></a>
         <SearchBox
